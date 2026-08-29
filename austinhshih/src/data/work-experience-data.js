@@ -1,43 +1,55 @@
 const workExperienceData = [
     {
-        company: 'IGN',
-        position: 'Software Engineer Intern',
-        timeFrame: 'June 2022 - August 2022',
+        company: 'Veeva Systems',
+        position: 'Associate Frontend Engineer - UI Components',
+        timeFrame: 'Aug 2025 - Present',
         description: [
-            "Wrote production ready Apollo server code for user rewards system for 300 million users",
+            "Development and documentation of internal UI Component library used by 30+ teams at Veeva",
+            "Shape library-wide API design decisions as one of the team’s go-to TypeScript experts",
+            "Implement Passkey Authentication and Captcha for Veeva’s single sign-on solution",
+        ],
+    }, 
+    {
+        company: 'Veeva Systems',
+        position: 'Frontend Engineering Intern - UI Components',
+        timeFrame: 'Jun 2024 - Sep 2024',
+        description: [
+            "Upgraded UI Infrastructure to support deploying Storybook (UI Documentation) to AWS S3 for each build",
+        ],
+    }, 
+    {
+        company: 'IGN Entertainment',
+        position: 'Frontend Engineering Intern',
+        timeFrame: 'Jun 2022 - Aug 2022',
+        description: [
             "Developed Google Optimize A/B tests ran on 1000+ users to improve site usability",
-            "Independently built backend support for game activity tracker and visualizer for IGN hack day",
+            "Independently built GraphQL backend support for game activity tracker for IGN hack day",
         ],
     }, 
     {
         company: 'Advantech',
-        position: 'IT Intern',
-        timeFrame: 'July 2021 - August 2021',
+        position: 'Information Technology Intern',
+        timeFrame: 'Jul 2021 - Aug 2021',
         description: [
-            "Implemented batch and powershell scripts to optimize and automate repetitive IT tasks",
-            "Developed automatic computer setup script saving 30 minutes per new computer",
-            "Created system to automatically update computer information lists for 200+ employees"
+            "Implemented shell scripts to optimize and automate repetitive IT tasks",
         ],
     }, 
     {
         company: 'Include at Davis',
         position: 'President',
-        timeFrame: 'June 2023 - Present',
+        timeFrame: 'Jun 2023 - Jun 2025',
         description: [
-            "Proactively building out infrastructure to increase our capacity for large scale client projects",
-            "Leading 25 developers in development of Content Management System & E-Store Framework",
-            "Teaching industry standards for Next.js and Apollo servers learned from prior internships",
-            "Developed DevOps pipeline with Github Actions to provide smooth development experience"
+            "Rolled out in-house Content Management System, enabling clients to easily edit their websites",
+            "Lead 25 developers in development of Content Management System & E-Store Framework",
         ],
     }, 
     {
         company: 'HackDavis',
         position: 'Technical Director',
-        timeFrame: 'Oct 2023 - Present',
+        timeFrame: 'Oct 2023 - Jun 2025',
         description: [
-            "Leading development of judging app used to collect and judge 100+ hackathon submissions",
+            "Lead development of judging app used to collect and judge 150+ hackathon submissions",
             "Implementing secure user authentication system with JWT tokens for 1000 hackers",
-            "Designing and maintaining clean and scalable Typescript and Next.js full stack codebase"
         ],
     }, 
 ]

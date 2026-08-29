@@ -20,7 +20,7 @@ const Welcome = React.forwardRef((props, ref) => {
             <h1 className="welcome-name">I’m Austin Shih.</h1>
             </Reveal>
             <Reveal>
-            <h3 className="welcome-software-stack">Software Engineer | Full Stack</h3>
+            <h3 className="welcome-software-stack">Frontend Developer</h3>
             </Reveal>
             <Reveal expand={true} width='fit-content'>
               <button onClick={scrollDown} className="continue-button">

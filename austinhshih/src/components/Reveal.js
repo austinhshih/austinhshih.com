@@ -5,7 +5,7 @@ export const Reveal = ({children, width, expand}) => {
     width = width? 'fit-content' : '100%'
 
     const ref = useRef(null)
-    const isInView = useInView(ref, {once: false})
+    const isInView = useInView(ref, {once: true})
 
     const mainControls = useAnimation();
     const slideControls = useAnimation();
@@ -13,9 +13,6 @@ export const Reveal = ({children, width, expand}) => {
         if (isInView) {
             mainControls.start('visible')
             slideControls.start('visible')
-        } else {
-            mainControls.start('hidden')
-            slideControls.start('hidden')
         }
     }, [isInView])
     return (

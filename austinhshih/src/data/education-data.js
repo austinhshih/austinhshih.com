@@ -1,8 +1,8 @@
 const educationData = [
     {
-        school: 'UC Davis',
-        major: 'Computer Science & Statistics (Machine Learning Track) double major',
-        timeFrame: 'September 2021 - Present',
+        school: 'University of California, Davis',
+        major: 'B.S. Computer Science | B.S. Statistics | Minor in Technology Management',
+        timeFrame: 'Sep 2021 - Jun 2025',
     }, 
 ]
 

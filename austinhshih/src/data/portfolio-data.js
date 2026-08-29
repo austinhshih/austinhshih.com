@@ -1,35 +1,21 @@
 const portfolioData = [
     {
         title: 'Moodify',
-        shortDesc: 'Music mood classifier',
+        shortDesc: 'Machine Learning music mood classifier',
         points: [
-            "Trained Random Forest model achieving over 95% accuracy and 0.95 F1-score",
-            "Features extracted from averages of MFCC’s, mel spectrograms, and chromagrams",
-            "Server deployed reliably on AWS supported by custom Next.js frontend",
+            "Deployed with Nginx & Gunicorn on AWS EC2",
         ],
         imageFileName: 'moodify.png',
         projectLink: 'https://moodify.austinshih.com',
     },
     {
         title: 'TortlePoll - Live polling website',
-        shortDesc: 'Live polling site similar to StrawPoll developed with Next.js.',
+        shortDesc: 'Filter results by demographic group, track your polls, take public polls or keep polls private',
         points: [
-            "Live results updating in the front-end",
-            "Filter results by demographic group",
-            "Keep track of polls you've created and voted for in your dashboard"
+            "Dynamic data visualization using Chart.js and Pusher for live updating",
         ],
         imageFileName: 'TortlePoll.PNG',
-        projectLink: 'https://github.com/Austin2Shih/TortlePoll-Live-polling-website',
-    },
-    {
-        title: 'MusicMaps',
-        shortDesc: 'Map of nearby Spotify listening activity for discovering new music',
-        points: [
-            "Find out what the nearest users are listening to with live updates",
-            "Express app using Apollo/GraphQL",
-        ],
-        imageFileName: 'MusicMaps.png',
-        projectLink: 'https://github.com/Austin2Shih/Music-Map',
+        projectLink: 'https://tortlepoll.austinshih.com',
     }
 ]
 

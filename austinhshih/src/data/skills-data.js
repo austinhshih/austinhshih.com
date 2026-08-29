@@ -2,29 +2,19 @@ const skillsData =
 {
     frameworks: 
     [
-        "Tensorflow",
-        "Keras",
-        "Google Cloud",
-        "Flask",
         "React.js",
-        "Next.js", 
-        "Express.js",
+        "React Testing Library",
+        "Jest",
         "PostgreSQL",
-        "Knex.js",
-        "GraphQL",
-        "Apollo",
+        "MongoDB",
+        "Node",
+        "Git",
     ],
     codingLanguages: 
     [
-        "Python",
-        "Java",
-        "C",
-        "C#",
+        "TypeScript",
         "C++",
-        "JavaScript",
-        "SQL",
-        "HTML",
-        "CSS"
+        "Python",
     ],
     languages: 
     [
@@ -32,6 +22,5 @@ const skillsData =
         "Mandarin Chinese"
     ],
 }
-
 
 export default skillsData
